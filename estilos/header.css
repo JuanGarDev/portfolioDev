@@ -10,37 +10,6 @@ body{
 }
 
 
-
-header{
-    margin-top: 5px;
-    text-align: center;
-    padding: 5px;
-}
-
-nav{
-    display: flex;
-    flex-direction: column;
-}
-
-a{
-    font-size: 1.2em;
-    text-decoration: none;
-    padding: 2px;
-    margin: 3px 140px;
-    border: 2px solid transparent;
-    border-radius: .2rem;
-    color: white;
-}
-
-a:hover{
-    border-bottom: 2px solid rgb(255, 255, 255);
-    transition: border 1s ease-in-out;
-}
-
-a:visited{
-    color: white;
-}
-
 #presentacion .contenedor{
     display: flex;
     flex-direction: column;
@@ -55,11 +24,9 @@ a:visited{
 }
 
 #descripcion{
-    font-size: 2rem;
-    color: #2C36A3;
+    font-size: 1.6rem;
 }
 
 #presentacion h1{
     font-size: 3rem;
-    color: #2C36A3;
 }
