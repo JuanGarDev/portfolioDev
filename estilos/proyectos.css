@@ -34,5 +34,7 @@
     background-color: white;
     border-radius: .5rem;
 
-    background-image: url();
+    background-image: url(https://raw.githubusercontent.com/JuanGarDev/portfolioDev/master/img/CHIMAL%20YE.png);
+    background-position: center center;
+    background-size: cover;
 }
