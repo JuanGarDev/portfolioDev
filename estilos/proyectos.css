@@ -1,0 +1,38 @@
+#proyectos{
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+#proyectos h1{
+    font-size: 1.5rem;
+}
+
+#proyectos p{
+    font-size: 1rem;
+}
+.tarjetas{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    margin: 30px;
+    padding: 20px 20px;
+    border: 2px solid white;
+    border-radius: .5rem;
+}
+
+
+#proyectos li{
+    list-style: none;
+    font-size: 1rem;
+}
+
+.img-proyecto{
+    margin: 15px 0;
+    padding: 80px 30px;
+    background-color: white;
+    border-radius: .5rem;
+
+    background-image: url();
+}
