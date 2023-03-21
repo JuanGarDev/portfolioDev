@@ -19,13 +19,13 @@
 }
 
 #sobremi {
-    padding: 50px;
+    padding: 25px 50px;
     background-color: #7E86DD;
 
 }
 
 .tecnologias {
-    margin-top: 50px;
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +33,10 @@
     background-color: white;
     color: black;
     border-radius: 1rem;
+    box-shadow: 1px 1px 8px 1px rgb(1,1,1, .2);
+    
 }
+
 .tecnologias h1{
     font-size: 1.5rem;
 }
@@ -46,7 +49,7 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin: 10px 15px;
+    margin: 8px 0;
 
 }
 
