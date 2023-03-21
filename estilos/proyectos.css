@@ -1,40 +1,64 @@
-#proyectos{
+#proyectos {
     margin-top: 70px;
     text-align: center;
     color: white;
 }
-#proyectos h1{
+
+#proyectos h1 {
     font-size: 1.5rem;
+    margin-bottom: .5rem;
 }
 
-#proyectos p{
-    font-size: 1rem;
+#proyectos p {
+    font-size: 1.2rem;
 }
-.tarjetas{
-    
+
+.tarjetas {
     display: flex;
     flex-direction: column;
     text-align: left;
 
     margin: 30px;
     padding: 20px 20px;
-    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid transparent;
     border-radius: .5rem;
+    transition: border 1s;
 }
 
+.tarjetas:hover{
+    border: 2px solid white;
+}
 
-#proyectos li{
+#proyectos h3 {
+    font-size: 1.4rem;
+}
+
+#proyectos li {
     list-style: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
-.img-proyecto{
+.img-proyecto {
     margin: 15px 0;
     padding: 80px 30px;
     background-color: white;
     border-radius: .5rem;
 
     background-image: url("https://raw.githubusercontent.com/JuanGarDev/portfolioDev/master/img/restaurante.png");
-    background-position: 20% 60%;
-    background-size: cover;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#proyectos a {
+    text-decoration: none;
+    color: #3a47d5;
+}
+
+#proyectos a:hover {
+    color: #4e59d7;
+}
+
+#proyectos a:visited {
+    color: white;
 }
