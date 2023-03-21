@@ -1,0 +1,57 @@
+#quiensoy .contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+#quiensoy {
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+#quiensoy h1 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+#quiensoy p {
+    font-size: 1rem;
+}
+
+#sobremi {
+    padding: 50px;
+    background-color: #7E86DD;
+
+}
+
+.tecnologias {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+}
+.tecnologias h1{
+    font-size: 1.5rem;
+}
+.tecnologias h4{
+    font-size: 1.2rem;
+}
+
+.tenologiasdiv {
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px 15px;
+
+}
+
+progress{
+    margin-top: 5px;
+    padding: .5rem 5rem;
+
+}
