@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+
+    background: linear-gradient(30deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+
+
+header{
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 2px;
+    margin: 3px 140px;
+    border: 2px solid transparent;
+    border-radius: .2rem;
+    color: white;
+}
+
+a:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: border 1s ease-in-out;
+}
+
+a:visited{
+    color: white;
+}
+
+#presentacion .contenedor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0;
+    margin: 100px 50px;
+    color: white;
+}
+
+#saludo{
+    font-size: 1.5rem;
+}
+
+#descripcion{
+    font-size: 1.5rem;
+}
+
+#presentacion h1{
+    font-size: 3rem;
+    color: #2C36A3;
+}
