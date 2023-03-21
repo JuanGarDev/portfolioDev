@@ -28,7 +28,10 @@
             <div id="sobremi">
                 <div class="texto">
                     <h1>Sobre mi...</h1>
-                    <p>Desde que conocí Java, quedé fascinado con el mundo de la programación y desde entonces he estado trabajando arduamente para mejorar mis habilidades. Estoy emocionado de continuar aprendiendo y creciendo como programador, y por ello estoy en busca de oportunidades para trabajar en proyectos desafiantes y aprender de profesionales experimentados en el campo.
+                    <p>Desde que conocí Java, quedé fascinado con el mundo de la programación y desde entonces he estado
+                        trabajando arduamente para mejorar mis habilidades. Estoy emocionado de continuar aprendiendo y
+                        creciendo como programador, y por ello estoy en busca de oportunidades para trabajar en
+                        proyectos desafiantes y aprender de profesionales experimentados en el campo.
                     </p>
                 </div>
                 <div class="tecnologias">
@@ -67,32 +70,29 @@
     <section id="proyectos">
         <h1>Proyectos</h1>
         <div class="tarjetas">
-            <h1><a href="https://juangardev.github.io/practicaOrder2/" target="_blank">La Ruleta</a> - Página web</h1>
+            <h1>La Ruleta</a> - Página web</h1>
             <p>Proyecto de página web creada desde cero, de acuerdo
                 a los requisitos solicitados por el cliente.
-                Diseñé y desarrollé la arquitectura de la página, 
-                y trabajé en la selección de recursos 
+                Diseñé y desarrollé la arquitectura de la página,
+                y trabajé en la selección de recursos
                 visuales y de contenido para su implementación</p>
-            <div class="img-proyecto">
-                
+            <div class="img-proyecto" onclick="redirigir('https://juangardev.github.io/practicaOrder2/')">
             </div>
             <h3>Tecnologias utilizadas:</h3>
-            <li>Html</li>
-            <li>Css</li>
-        </div>
-
-        <div class="tarjetas">
-            <h1>Titulo Proyecto</h1>
-            <p>Descripcion breve</p>
-            <div class="img-proyecto">
-            </div>
-            <h3>Tecnologias utilizadas:</h3>
-            <li>Java</li>
             <li>Html</li>
             <li>Css</li>
         </div>
 
     </section>
+
+
+    <script type="text/javascript">
+        function redirigir(url) {
+            var win = window.open(url, '_blank');
+            win.focus();
+        }
+    </script>
+
 </body>
 
 </html>

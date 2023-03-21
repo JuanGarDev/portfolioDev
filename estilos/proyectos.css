@@ -20,14 +20,15 @@
 
     margin: 30px;
     padding: 20px 20px;
-    background-color: rgba(0, 0, 0, 0.2);
     border: 2px solid transparent;
     border-radius: .5rem;
-    transition: border 1s;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    transition: background-color 1s;
 }
 
 .tarjetas:hover{
-    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #proyectos h3 {
