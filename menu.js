@@ -14,11 +14,11 @@ toggle.addEventListener('click', function(){
         tarjeta2.style.background = 'white';
         tarjeta2.style.color = 'black';
     }else{
-        body.style.background = 'linear-gradient(30deg, #1C2266 0%, #0c0f2d 100%)';
+        body.style.background = 'linear-gradient(30deg, #141847 0%, #070919 100%)';
         body.style.transition = '4s';
-        tarjeta.style.background = '#21287A';
+        tarjeta.style.background = '#1A2061';
         tarjeta.style.color = 'white';
-        tarjeta2.style.background = '#21287A';
+        tarjeta2.style.background = '#1A2061';
         tarjeta2.style.color = 'white';
     }
 });
