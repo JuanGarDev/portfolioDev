@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d975c50405.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
@@ -12,10 +13,20 @@
     <link rel="stylesheet" href="estilos/quiensoy.css">
     <link rel="stylesheet" href="estilos/proyectos.css">
     <link rel="stylesheet" href="estilos/footer.css">
+    <script src="menu.js" defer></script>
     <title>Portfolio Juan Garcia</title>
 </head>
 
 <body>
+
+    <header>
+        <div class="contenedor">
+            <i class="fa-solid fa-sun" style="color: #ffffff;" id="modo"></i>
+        </div>
+    </header>
+
+
+ 
     <section id="presentacion">
         <div class="contenedor">
             <p id="saludo">Hola, soy</p>
@@ -35,7 +46,7 @@
                         proyectos desafiantes y aprender de profesionales experimentados en el campo.
                     </p>
                 </div>
-                <div class="tecnologias">
+                <div class="tecnologias" id="backend">
                     <h1>Backend</h1>
                     <div class="tenologiasdiv">
                         <h4>Java</h4>
@@ -50,7 +61,7 @@
                         <progress max="100" value="75"></progress>
                     </div>
                 </div>
-                <div class="tecnologias">
+                <div class="tecnologias" id="frontend">
                     <h1>Frontend</h1>
                     <div class="tenologiasdiv">
                         <h4>Html</h4>
@@ -71,7 +82,7 @@
     <section id="proyectos">
         <h1>Proyectos</h1>
         <div class="tarjetas">
-            <h1>La Ruleta</a> - Página web</h1>
+            <h1>La Ruleta</a> - Web First Mobile</h1>
             <p>Proyecto de página web creada desde cero, de acuerdo
                 a los requisitos solicitados por el cliente.
                 Diseñé y desarrollé la arquitectura de la página,
@@ -88,7 +99,7 @@
 
 
     <footer>
-        <div class="contenedor"><a href="https://github.com/JuanGarDev">Repositorio</a></div>
+        <div class="contenedor"><a href="https://github.com/JuanGarDev" target="_blank">Repositorio</a></div>
     </footer>
 
 

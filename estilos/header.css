@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     text-align: center;
     padding: 185px 0;
-    margin: 100px 50px;
+    margin: 80px 50px;
     color: white;
 }
 
@@ -30,3 +30,23 @@ body{
 #presentacion h1{
     font-size: 3rem;
 }
+
+header .contenedor{
+    display: flex;
+    flex-direction: column;  
+    padding-top: 3%; 
+}
+
+header i{
+    font-size: 1.5rem;
+    margin-left: 90%;
+    margin-right: 10%;
+    color: #171d57;
+    
+}
+
+header i:hover{
+    cursor: pointer;
+}
+
+
